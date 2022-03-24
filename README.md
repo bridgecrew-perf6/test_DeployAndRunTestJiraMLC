@@ -30,3 +30,5 @@ The expected output of the metrics job when the input data is `df_sample_scored.
     "npv_disparity": 0.9158957106812448
 }
 ```
+
+The included dmn file `bias_disparity_DMN.dmn` checks the returned `precision_disparity` value. The test will fail if this value is outside `[0.8, 1.25]`.
