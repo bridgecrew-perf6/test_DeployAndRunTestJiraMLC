@@ -1,0 +1,8 @@
+{
+    "tags": ["run_test"],
+    "name": "Test DeployAndRunTestJiraMLC: PASS",
+    "description": "Model to test DeployAndRunTestJiraMLC - PASS expected",
+    "modelCategory": "BUSINESS_MODEL",
+    "custom": {
+    }
+}
