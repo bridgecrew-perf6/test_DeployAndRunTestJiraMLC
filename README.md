@@ -8,7 +8,7 @@ The metrics function expects a DataFrame with at lease the following three colum
 ### Sample Inputs
 
 Choose **one** of
- - `df_sample_scored.json`
+ - `df_baseline_scored.json`
 
 
 ### Expected Output
@@ -16,18 +16,18 @@ Choose **one** of
 The expected output of the metrics job when the input data is `df_sample_scored.json` should be 
 ```json
 {
-    "attribute_name": "gender",
-    "attribute_value": "female",
-    "ppr_disparity": 0.5,
-    "pprev_disparity": 0.888888888888889,
-    "precision_disparity": 1.3599999999999999,
-    "fdr_disparity": 0.7567567567567567,
-    "for_disparity": 1.6097560975609757,
-    "fpr_disparity": 0.7648073605520413,
-    "fnr_disparity": 1.32,
-    "tpr_disparity": 0.8976000000000001,
-    "tnr_disparity": 1.1500366837857667,
-    "npv_disparity": 0.9158957106812448
+    "attribute_name": "gender", 
+    "attribute_value": "female", 
+    "ppr_disparity": 0.5042735042735043, 
+    "pprev_disparity": 1.190763484881132, 
+    "precision_disparity": 1.1072033898305087, 
+    "fdr_disparity": 0.8871543264942017, 
+    "for_disparity": 1.2228070175438595, 
+    "fpr_disparity": 1.1736158578263842, 
+    "fnr_disparity": 0.8414786967418546, 
+    "tpr_disparity": 1.0501984126984127, 
+    "tnr_disparity": 0.9317510076130765, 
+    "npv_disparity": 0.9708045977011494
 }
 ```
 
